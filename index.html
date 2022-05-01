@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Dropdown Navigation</title>
+  </head>
+
+  <body>
+    <header class="py-1">
+      <div class="container header">
+        <div class="logo">
+          <img src="https://i.ibb.co/crWfySP/logo.png" alt="Snap" />
+        </div>
+
+        <input type="checkbox" class="toggler" id="toggler" />
+        <label for="toggler" class="hamburger">
+          <span></span>
+        </label>
+
+        <div class="dark-bg">
+          <nav class="py-4">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <input type="checkbox" class="drop-btn" id="drop-btn" />
+                <label for="drop-btn" class="dropdown nav-link">
+                  <span>Features</span>
+                  <span class="dropdown-arrow"></span>
+                </label>
+
+                <ul class="dropdown-list dropbox-one mx-2">
+                  <li class="dropdown-item">
+                    <img
+                      class="dropdown-img"
+                      src="https://i.ibb.co/JQzkMcf/icon-todo.png"
+                      alt=""
+                    />
+                    <a class="dropdown-link" href="#">Todo List</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <img
+                      class="dropdown-img"
+                      src="https://i.ibb.co/0Db3m2X/icon-calendar.png"
+                      alt=""
+                    />
+                    <a class="dropdown-link" href="#">Calendar</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <img
+                      class="dropdown-img"
+                      src="https://i.ibb.co/wcjRwRX/icon-reminders.png"
+                      alt=""
+                    />
+                    <a class="dropdown-link" href="#">Reminder</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <img
+                      class="dropdown-img"
+                      src="https://i.ibb.co/ScQvRcY/icon-planning.png"
+                      alt=""
+                    />
+                    <a class="dropdown-link" href="#">Planning</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <input
+                  type="checkbox"
+                  class="drop-btn--two"
+                  id="drop-btn--two"
+                />
+                <label for="drop-btn--two" class="dropdown nav-link">
+                  <span>Company</span>
+                  <span class="dropdown-arrow"></span>
+                </label>
+
+                <ul class="dropdown-list dropbox-two mx-2">
+                  <li class="dropdown-item">
+                    <a class="dropdown-link" href="#">History</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a class="dropdown-link" href="#">Our Team</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a class="dropdown-link" href="#">Planning</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#">Careers</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+            </ul>
+
+            <ul class="nav-btns">
+              <li class="btn-item"><a class="nav-link" href="#">Login</a></li>
+              <li class="btn-item">
+                <a class="nav-link nav-btn btn" href="#">Register</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="mobile-hero--img"></div>
+
+      <section class="container hero d-grid">
+        <div class="hero-content">
+          <h1 class="hero-title">Make <span>remote work</span></h1>
+
+          <p class="hero-info">
+            Get your team in sync, no matter your location. Streamline process,
+            create team rituals, and watch productivity soar.
+          </p>
+
+          <a href="#" class="btn hero-btn">Learn more</a>
+        </div>
+
+        <div class="hero-img">
+          <img src="https://i.ibb.co/2v1DcTb/image-hero-desktop.png" alt="" />
+        </div>
+
+        <div class="client-img">
+          <img src="https://i.ibb.co/6r7PW6X/client-databiz.png" alt="" />
+
+          <img src="https://i.ibb.co/jbvWx9B/client-audiophile.png" alt="" />
+
+          <img src="https://i.ibb.co/q72553C/client-meet.png" alt="" />
+
+          <img src="https://i.ibb.co/7XD4X8J/client-maker.png" alt="" />
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
